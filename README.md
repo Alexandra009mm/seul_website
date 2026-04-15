@@ -30,7 +30,7 @@ El sitio cuenta con una navegación fluida y secciones específicas:
 
     Mapa Interactivo: Integración de mapa para ubicar geográficamente el contexto del sitio.
 
-##📋 Requerimientos
+## 📋 Requerimientos
 
 Para visualizar o editar este proyecto, asegúrate de cumplir con lo siguiente:
 Para Visualización:
