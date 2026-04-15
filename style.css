@@ -1,6 +1,5 @@
-/* ============================================================
-   RESET Y BASE
-   ============================================================ */
+/*  RESET Y BASE*/
+
 * {
     margin: 0;
     padding: 0;
@@ -31,9 +30,8 @@ li {
 
 
 
-/* ============================================================
-   TIPOGRAFÍA
-   ============================================================ */
+/* TIPOGRAFÍA*/
+
 h1 {
     font-size: 30px;
     color: #eee;
@@ -62,9 +60,8 @@ p {
 }
 
 
-/* ============================================================
-   HEADER
-   ============================================================ */
+/*HEADER*/
+
 header {
     background-color: #0D0D0D;
     padding: 10px;
@@ -85,9 +82,7 @@ header {
 }
 
 
-/* ============================================================
-   NAV
-   ============================================================ */
+/* NAV*/
 nav {
     background-color: #ffffff;
     display: flex;
@@ -102,9 +97,8 @@ nav {
 }
 
 
-/* ============================================================
-   HERO (INICIO)
-   ============================================================ */
+/* HERO (INICIO)*/
+
 .bloque_1 {
     background: linear-gradient(#1a1a2e, #16213e);
     color: white;
@@ -162,9 +156,8 @@ nav {
 
 
 
-/* ============================================================
-   SOBRE SEÚL
-   ============================================================ */
+/*SOBRE SEÚL*/
+
 .bloque_2 {
     padding: 20px;
     background-color: #f4f4f4;
@@ -186,15 +179,41 @@ nav {
     margin-top: 20px;
 }
 
+
+.galeria-quienes-arriba {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+.galeria-quienes-arriba img {
+    width: 70%;
+    border-radius: 10px;
+}
 .galeria-quienes img {
     width: 20%;
     border-radius: 10px;
+    box-shadow: 5px 5px 8px #ffffffd6;
 }
 
+.galeria-quienes img.galeria-imagen2 {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #ffffffd6;
+}
 
-/* ============================================================
-   TECNOLOGÍA Y LUGARES (REUTILIZA tec)
-   ============================================================ */
+aside#seul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/*TECNOLOGÍA Y LUGARES (REUTILIZA tec) */
 .tec {
     background-color: #eaeaf5;
     padding: 20px;
@@ -221,9 +240,7 @@ nav {
 }
 
 
-/* ============================================================
-   MANHWA
-   ============================================================ */
+/*MANHWA*/
 #manhwa {
     background-color: #1a1a2e;
 }
@@ -237,9 +254,7 @@ nav {
 }
 
 
-/* ============================================================
-   UBICACIÓN
-   ============================================================ */
+/*UBICACIÓN */
 .ubicacion {
     padding: 20px;
     background-color: #ffffff;
@@ -279,9 +294,8 @@ nav {
 }
 
 
-/* ============================================================
-   FOOTER
-   ============================================================ */
+/*
+   FOOTER*/
 footer {
     background-color: #0D0D0D;
     color: white;
