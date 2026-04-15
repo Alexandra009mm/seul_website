@@ -248,11 +248,6 @@ aside#seul {
     color: #f7f6f6;
 }
 
-#manhwa h3 {
-    color: #21BFA2;
-}
-
-
 /*UBICACIÓN */
 .ubicacion {
     padding: 20px;
@@ -310,7 +305,7 @@ footer {
     color: white;
 }
 
-button{
+button {
     margin: 30px;
     background-color: #ffffff;
     padding: 10px 10px;
@@ -320,6 +315,7 @@ button{
     font-style: italic;
     font-size: 18px;
 }
+
 
 img:hover{
    transform: scale(1.05);
