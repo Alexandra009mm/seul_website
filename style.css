@@ -64,7 +64,6 @@ p {
 
 header {
     background-color: #0D0D0D;
-    padding: 10px;
     text-align: center;
     border: #ffffff 3px solid;
 }
@@ -84,7 +83,6 @@ header {
 
 /* NAV*/
 nav {
-    background-color: #ffffff;
     display: flex;
     justify-content: center;
     padding: 8px;
@@ -93,7 +91,6 @@ nav {
 
 .contenedor_nav {
     display: flex;
-    gap: 40px;
 }
 
 
@@ -383,5 +380,27 @@ li.tecnologia:hover{
 
     a:hover {
         font-size: 16px;
+    }
+}
+
+#button_menu{
+    display: none;
+    background: none;
+    border: none;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    margin-left: 8px;
+}
+
+@media(max-width: 480px){
+    #button_menu{
+        display: block;
+    }
+    nav.main-menu{
+        display: none;
+    }
+    nav.main-menu.active    {
+        display: block !important;
     }
 }

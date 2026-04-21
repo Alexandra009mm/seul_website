@@ -17,7 +17,10 @@
     </header>
 
     <!-- NAV -->
-    <nav>
+     <button id="button_menu" onclick= "showmenu()" style="font-size: 40px;">
+        ≡
+     </button>
+    <nav class="main-menu">
         <ul class="contenedor_nav">
             <li class="link_nav"><a href="#inicio">Inicio</a></li>
             <li class="link_nav"><a href="#seul">Sobre Seúl</a></li>
@@ -46,7 +49,7 @@
         <!-- SOBRE SEÚL -->
         <aside id="seul" class="bloque_2">
             <div class="descripcion">
-                <h2 class="titulo_descrip_inicio">Sobre Seúl</h2> >
+                <h2 class="titulo_descrip_inicio">Sobre Seúl</h2> 
                 <p class="text_descrip_inicio">
                     Seúl, la capital de Corea del Sur, es una ciudad moderna que combina tradición y tecnología de una forma única.
                     Es reconocida por su innovación, su desarrollo digital y su estilo de vida acelerado, donde todo está conectado. <br><br>
@@ -184,10 +187,11 @@
     </main>
 
     <!-- FOOTER -->
-    <footer>
-        <p class="p_text"><small>Akexandra Peña © 2026</small></p>
+    <footer aria-label="diomedazo">
+        <p class="p_text"><small>Akexandra Peña © <span id="year"></span></small></p>
         <p class="p_text"><small>“La clave está en encontrarte a ti mismo, sin importar lo difícil que sea el camino.”</small></p>
     </footer>
+    <script src="script.js"> </script>
 
 </body>
 </html>
